@@ -1,0 +1,63 @@
+#frente {
+  background-image: url("frente.38d7a85f.png");
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 264px;
+  position: relative;
+  left: 17px;
+}
+
+.info {
+  font-family: Courier New, Courier, monospace;
+  font-size: .6em;
+}
+
+#nome {
+  width: 200px;
+  position: absolute;
+  top: 135px;
+  left: 2px;
+}
+
+#categoria {
+  width: 100px;
+  position: absolute;
+  top: 175px;
+  left: 2px;
+}
+
+#nascimento {
+  width: 100px;
+  position: absolute;
+  top: 175px;
+  left: 71px;
+}
+
+#validade {
+  width: 100px;
+  position: absolute;
+  top: 216px;
+  left: 2px;
+}
+
+#status {
+  width: 100px;
+  position: absolute;
+  top: 216px;
+  left: 71px;
+}
+
+#atras {
+  background-image: url("atras.e787278b.png");
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 264px;
+  position: absolute;
+}
+
+#canvas {
+  position: absolute;
+  top: 70px;
+  left: 240px;
+}
+/*# sourceMappingURL=validacao.4d663569.css.map */

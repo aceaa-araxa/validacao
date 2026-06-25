@@ -1,0 +1,66 @@
+#carteirinha {
+  
+}
+
+#frente {
+  position: relative;
+  background-image: url("../img/frente.png");
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 264px;
+  left: 17px;
+}
+
+.info {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.6em;
+}
+
+#nome {
+  position: absolute;
+  width: 200px;
+  top: 135px;
+  left: 2px;
+}
+
+#categoria {
+  position: absolute;
+  width: 100px;
+  top: 175px;
+  left: 2px;
+}
+
+#nascimento {
+  position: absolute;
+  width: 100px;
+  top: 175px;
+  left: 71px;
+}
+
+#validade {
+  position: absolute;
+  width: 100px;
+  top: 216px;
+  left: 2px;
+}
+
+#status {
+  position: absolute;
+  width: 100px;
+  top: 216px;
+  left: 71px;
+}
+
+#atras {
+  position: absolute;
+  background-image: url("../img/atras.png");
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 264px;
+}
+
+#canvas {
+  position: absolute;
+  top: 70px;
+  left: 240px;
+}
