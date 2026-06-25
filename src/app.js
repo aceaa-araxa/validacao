@@ -45,7 +45,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     sheetID: "1--SmowjrppeIYqzrCA5KIoQsIpFWO_QM",
     // sheetName is the name of the TAB in your spreadsheet (default is "Sheet1")
     sheetName: "usuarios",
-    query: `SELECT * WHERE A = ${userId}`,
+    query: `SELECT * WHERE A = "${userId}"`,
     callback: sheetDataHandler,
   });
 });
